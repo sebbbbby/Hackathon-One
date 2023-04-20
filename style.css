@@ -8,3 +8,15 @@ body {
 h1 {
     font-family: 'Cinzel', serif;
 }
+
+/* .test {
+    bottom: 400px;
+} */
+
+.card {
+    background-color: #f7d060;
+    outline: solid 5px #d21312;
+}
+#returnHome {
+    margin-top: 500px;
+}

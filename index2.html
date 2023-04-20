@@ -39,46 +39,155 @@
             href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap"
             rel="stylesheet"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+            rel="stylesheet"
+        />
         <script defer src="index2.js"></script>
         <link rel="stylesheet" href="style.css" />
         <title>Seb Hackathon</title>
-        <body>
+        <link rel="icon" href="images.png" />
     </head>
-    <center>
-        <button id="reload" onclick="location.reload()">
-            <h1>Beers... and Cat facts? and POKEMON!</h1>
-        </button>
-    </center>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border: solid #EA5455 2px; background-color:#F0EB8D;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Free Games!
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">MMOPRG</a></li>
-                  <li><a class="dropdown-item" href="#">Shooter</a></li>
-                  <li><a class="dropdown-item" href="#">Card Games</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+    <body>
+        <center>
+            <button id="reload" onclick="location.reload()">
+                <h1><s>Beers... and Cat facts?</s> POKEMON!</h1>
+            </button>
+        </center>
+        <br />
+        <br />
+        <br />
+        <center>
+            <button
+                id="pokeLoad"
+                type="button"
+                style="
+                    margin-right: 120px;
+                    font-family: 'Press Start 2P', cursive;
+                "
+                class="btn btn-primary btn-lg"
+            >
+                FIGHT!
+            </button>
+        </center>
+        <br />
+        <!-- <div class="card" style="width: 18rem;">
+      <img id='photo' src="" class="card-img-top" alt="poke-man">
+      <div class="card-body">
+        <h5 class="card-title" id="card-title">Pokemon</h5>
+        <p class="card-text"></p>
+        <a href="#" class="btn btn-primary">idkyet</a>
+      </div>
+    </div>
+ 
+  <div id='test' class="card" style="width: 18rem; margin-left: auto; bottom: 400px;">
+    <img id='photo1' src="" class="card-img-top" alt="poke-man">
+    <div class="card-body">
+      <h5 class="card-title1" id="card-title">Pokemon</h5>
+      <p class="card-text1"></p>
+      <a href="#" class="btn btn-primary">idkyet</a>
+    </div>
+  </div> -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem">
+                        <img
+                            id="photo"
+                            src="images.png"
+                            class="card-img-top"
+                            alt="poke-man"
+                        />
+                        <div class="card-body">
+                            <center>
+                                <h5
+                                    style="
+                                        font-family: 'Press Start 2P', cursive;
+                                    "
+                                    class="card-title"
+                                    id="card-title"
+                                >
+                                    READY!
+                                </h5>
+                            </center>
+                            <center>
+                                <p
+                                    style="
+                                        font-family: 'Press Start 2P', cursive;
+                                    "
+                                    class="card-text"
+                                ></p>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem">
+                        <img
+                            id="photoW"
+                            src="images-1.png"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <center>
+                                <h5
+                                    style="
+                                        font-family: 'Press Start 2P', cursive;
+                                    "
+                                    class="card-title0"
+                                >
+                                    RESULTS
+                                </h5>
+                            </center>
+                            <p class="card-text0"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="test" class="card" style="width: 18rem">
+                        <img
+                            id="photo1"
+                            src="images.png"
+                            class="card-img-top"
+                            alt="poke-man"
+                        />
+                        <div class="card-body">
+                            <center>
+                                <h5
+                                    style="
+                                        font-family: 'Press Start 2P', cursive;
+                                    "
+                                    class="card-title1"
+                                    id="card-title"
+                                >
+                                    READY!
+                                </h5>
+                            </center>
+                            <center>
+                                <p
+                                    style="
+                                        font-family: 'Press Start 2P', cursive;
+                                    "
+                                    class="card-text1"
+                                ></p>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </nav>
-</body>
+        <center>
+            <button
+                type="button"
+                class="btn btn-outline-danger"
+                id="returnHome"
+            >
+                Return To The Other Page
+            </button>
+        </center>
+    </body>
 </html>
